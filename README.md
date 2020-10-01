@@ -4,7 +4,7 @@ CONTENTS OF THIS FILE
 
  * Introduction
  * Requirements
- * STEPS 
+ * Steps
 
 INTRODUCTION
 -------------------

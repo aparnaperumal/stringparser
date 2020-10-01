@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+            <p>Enter the string to be parsed</p>
+    <form action="/v1/parse" method="post">
+      <input name="string" type="text" >
+      <button>Version One!</button>
+    </form>
+    <br>
+    <br>
+    <form action="/v2/parse" method="post">
+      <input name="string" type="text" >
+      <button>Version Two!</button>
+    </form>
+    <br>
+    <br>
+    <p>Output Array</p>
+    <div>
+      <%= stringarr %>
+    </div>
+  </body>
+</html>
